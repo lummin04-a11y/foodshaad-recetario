@@ -1,0 +1,426 @@
+/* Estilos para el Panel de Administración */
+.admin-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 2rem;
+  backdrop-filter: blur(5px);
+}
+
+.admin-modal {
+  background: white;
+  border-radius: 20px;
+  width: 95%;
+  max-width: 1200px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem 2rem;
+  border-bottom: 2px solid #E9ECEF;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px 20px 0 0;
+}
+
+.admin-title-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.admin-icon-header {
+  font-size: 2.5rem;
+  background: rgba(255,255,255,0.2);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.admin-subtitle {
+  margin: 0.25rem 0 0 0;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+.admin-content {
+  padding: 0;
+}
+
+.admin-tabs {
+  display: flex;
+  border-bottom: 1px solid #E9ECEF;
+  padding: 0 2rem;
+  background: #f8f9fa;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-btn.active {
+  border-bottom-color: #FF6B35;
+  color: #FF6B35;
+  background: white;
+}
+
+.recipes-management {
+  padding: 1.5rem 2rem;
+}
+
+.management-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.add-recipe-btn {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.add-recipe-btn:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+.recipe-item-editable {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.recipe-item-editable:hover {
+  border-color: #FF6B35;
+}
+
+.recipe-header-editable {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.recipe-title-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 2px solid #E9ECEF;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: inherit;
+}
+
+.recipe-title-input:focus {
+  outline: none;
+  border-color: #FF6B35;
+}
+
+.recipe-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.edit-btn, .delete-btn {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.edit-btn:hover {
+  background: #007bff;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc3545;
+  color: white;
+}
+
+.recipe-details-editable {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #E9ECEF;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.form-row input,
+.form-row textarea,
+.form-row select {
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.form-row input:focus,
+.form-row textarea:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: #FF6B35;
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+}
+
+.stats-panel {
+  padding: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.stat-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.admin-actions {
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #E9ECEF;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.cancel-btn, .save-btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.cancel-btn {
+  background: #6c757d;
+  color: white;
+}
+
+.cancel-btn:hover {
+  background: #5a6268;
+}
+
+.save-btn {
+  background: #28a745;
+  color: white;
+}
+
+.save-btn:hover {
+  background: #218838;
+  transform: translateY(-2px);
+}
+
+.admin-button-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.admin-button-header:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+/* Estilos para la gestión de temas */
+.themes-management {
+  padding: 1.5rem 2rem;
+}
+
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.theme-card {
+  background: white;
+  border: 2px solid #E9ECEF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.theme-card.active {
+  border-color: #FF6B35;
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.2);
+}
+
+.theme-preview {
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.normal-theme {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.navidad-theme {
+  background: linear-gradient(135deg, #D32F2F 0%, #388E3C 100%);
+}
+
+.muertos-theme {
+  background: linear-gradient(135deg, #7B1FA2 0%, #FFA000 100%);
+}
+
+.reyes-theme {
+  background: linear-gradient(135deg, #1976D2 0%, #FFC107 100%);
+}
+
+.theme-info h4 {
+  margin: 0 0 0.5rem 0;
+  color: #2D3748;
+}
+
+.theme-info p {
+  margin: 0;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.theme-preview-full {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #E9ECEF;
+}
+
+.theme-preview-full h4 {
+  margin-bottom: 1rem;
+  color: #2D3748;
+}
+
+.full-preview {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.preview-header {
+  background: linear-gradient(135deg, #FF6B35 0%, #FFA726 100%);
+  padding: 1rem 1.5rem;
+  color: white;
+}
+
+.preview-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.preview-content {
+  padding: 2rem;
+}
+
+.normal-preview .preview-content {
+  background: white;
+}
+
+.navidad-preview .preview-content {
+  background: #FFF5F5;
+}
+
+.muertos-preview .preview-content {
+  background: #F0FFF4;
+}
+
+.reyes-preview .preview-content {
+  background: #F0F8FF;
+}
+
+.preview-hero h3 {
+  margin: 0 0 0.5rem 0;
+  color: #2D3748;
+}
+
+.preview-hero p {
+  margin: 0;
+  color: #718096;
+}

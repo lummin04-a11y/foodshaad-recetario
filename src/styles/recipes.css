@@ -1,0 +1,216 @@
+/* Hero section */
+.hero-section {
+  text-align: center;
+  padding: 2.5rem 2rem;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.85) 100%);
+  margin: 1.5rem;
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.hero-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: var(--dark-gray);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Grid de recetas */
+.recipes-main {
+  padding: 0 2rem 3rem;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.recipe-card {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+/* Optimizar imágenes en las tarjetas de recetas */
+.recipe-card-image {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.recipe-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: brightness(0.95);
+  background: linear-gradient(45deg, #f0f0f0, #e0e0e0);
+}
+
+.recipe-card:hover .recipe-card-image img {
+  transform: scale(1.05);
+}
+
+.video-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--accent);
+  color: var(--white);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.recipe-card-content {
+  padding: 1.5rem;
+}
+
+.recipe-card h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: var(--dark);
+}
+
+.recipe-card p {
+  color: var(--medium-gray);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.recipe-meta span {
+  background: var(--lighter-gray);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--dark-gray);
+}
+
+.difficulty-badge {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.subcategory-tag {
+  display: inline-block;
+  background: rgba(0,123,255,0.1);
+  color: #007bff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  font-weight: 500;
+}
+
+/* TARJETAS MÁS PEQUEÑAS PARA SUBCATEGORÍAS */
+.subcategory-btn.active ~ .recipes-main .recipes-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-card {
+  transform: scale(0.95);
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-card-image {
+  height: 180px;
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-card-content {
+  padding: 1rem;
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-meta {
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.subcategory-btn.active ~ .recipes-main .recipe-meta span {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+}
+
+/* Responsive para recetas */
+@media (max-width: 768px) {
+  .recipe-card-image {
+    height: 200px;
+  }
+  
+  .recipes-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .hero-section {
+    margin: 1rem;
+    padding: 2rem 1rem;
+  }
+  
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+  
+  /* Ajustes para móviles en subcategorías */
+  .subcategory-btn.active ~ .recipes-main .recipe-card-image {
+    height: 150px;
+  }
+  
+  .subcategory-btn.active ~ .recipes-main .recipes-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+  }
+}

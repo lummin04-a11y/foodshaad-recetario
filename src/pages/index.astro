@@ -1,0 +1,46 @@
+---
+import RecipeApp from '../components/RecipeApp.jsx';
+import '../styles/globals.css';
+import '../styles/header.css';
+import '../styles/recipes.css';
+import '../styles/recipe-detail.css';
+import '../styles/cart.css';
+import '../styles/auth.css';
+import '../styles/carousel.css';
+import '../styles/serving-selector.css';
+import '../styles/admin.css';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="icon" href="/imagenes/ham.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodShaad - Recetas de Comida Rápida</title>
+
+  <!-- Fuentes modernas y atractivas -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/burger-icon.svg">
+
+  <!-- Schema.org para SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "FoodShaad - Recetas de Comida Rápida",
+    "description": "Aprende a preparar comida rápida casera deliciosa con nuestros videos paso a paso",
+    "url": "https://foodshaad.com"
+  }
+  </script>
+</head>
+<body class="theme-normal">
+  <div class="container">
+    <RecipeApp client:load />
+  </div>
+</body>
+</html>

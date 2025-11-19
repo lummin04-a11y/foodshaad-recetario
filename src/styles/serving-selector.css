@@ -1,0 +1,36 @@
+/* Estilos para ServingSelector */
+.serving-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--lighter-gray);
+  border-radius: var(--radius);
+}
+
+.serving-selector label {
+  font-weight: 600;
+  color: var(--dark);
+}
+
+.serving-selector select {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--light-gray);
+  border-radius: 8px;
+  background: var(--white);
+  font-family: inherit;
+}
+
+.serving-note {
+  color: var(--medium-gray);
+  font-size: 0.9rem;
+}
+
+/* Responsive para ServingSelector */
+@media (max-width: 768px) {
+  .serving-selector {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}

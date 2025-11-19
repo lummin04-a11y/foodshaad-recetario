@@ -1,0 +1,121 @@
+/* Estilos para el sistema de autenticación */
+.auth-container {
+  max-width: 450px;
+  margin: 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  backdrop-filter: blur(10px);
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.auth-header .logo {
+  font-size: 4rem;
+  margin-bottom: 15px;
+}
+
+.auth-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.auth-subtitle {
+  color: #666;
+  font-size: 1rem;
+}
+
+.error-message {
+  background: #FFE6E6;
+  color: #D63031;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-left: 4px solid #D63031;
+  font-weight: 500;
+}
+
+.auth-form {
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 16px 20px;
+  border: 2px solid #E9ECEF;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #FF6B35;
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+  transform: translateY(-2px);
+}
+
+.submit-button {
+  width: 100%;
+  padding: 16px;
+  background: linear-gradient(135deg, #FF6B35 0%, #E55A2B 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.submit-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.toggle-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #FF6B35;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.toggle-button:hover {
+  color: #E55A2B;
+  text-decoration: underline;
+}
+
+.credentials-info {
+  background: #E3F2FD;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-left: 4px solid #06D6A0;
+}
+
+.credentials-info p {
+  margin: 5px 0;
+}

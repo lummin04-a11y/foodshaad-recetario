@@ -1,0 +1,184 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+/* Reset y variables globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #FF6B35;
+  --primary-dark: #E55A2B;
+  --secondary: #FFA726;
+  --accent: #FF4081;
+  --dark: #2D3748;
+  --dark-gray: #4A5568;
+  --medium-gray: #718096;
+  --light-gray: #A0AEC0;
+  --lighter-gray: #EDF2F7;
+  --white: #FFFFFF;
+  --gradient: linear-gradient(135deg, #FF6B35 0%, #FFA726 100%);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --radius: 12px;
+  --radius-lg: 20px;
+}
+
+/* Estilos base del body */
+body {
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+  color: var(--dark);
+  transition: all 0.3s ease;
+}
+/* Tema Normal */
+body.theme-normal {
+  background: url('/imagenes/hola.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.theme-normal .hero-section,
+body.theme-normal .recipe-detail,
+body.theme-normal .auth-container {
+  background: url('/imagenes/1.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* Tema Navidad */
+body.theme-navidad {
+  background: url('/imagenes/navidad.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.theme-navidad .hero-section,
+body.theme-navidad .recipe-detail,
+body.theme-navidad .auth-container {
+  background: url('/imagenes/3.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* Tema Día de Muertos */
+body.theme-muertos {
+  background: url('/imagenes/muertos.webp') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.theme-muertos .hero-section,
+body.theme-muertos .recipe-detail,
+body.theme-muertos .auth-container {
+  background: url('/imagenes/2.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* Tema Reyes */
+body.theme-reyes {
+  background: url('/imagenes/reyes.jpeg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+body.theme-reyes .hero-section,
+body.theme-reyes .recipe-detail,
+body.theme-reyes .auth-container {
+  background: url('/imagenes/4.jpg') no-repeat center center;
+  background-size: cover;
+  border-radius: var(--radius-lg);
+}
+
+/* Resto de tus estilos existentes... */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100vh;
+}
+
+/* Tipografía global */
+h2 {
+  font-family: 'Dancing Script', cursive;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+  color: var(--dark-gray);
+  font-size: 2.0rem;
+}
+
+/* ... resto de tus estilos existentes ... */
+
+
+
+.auth-container {
+  background: var(--theme-bg-color);
+  /* resto de estilos existentes... */
+}
+.brand-title {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+.recipe-card h3,
+.recipe-header-info h2 {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-weight: 700;
+}
+
+.hero-section h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lighter-gray);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--light-gray);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--medium-gray);
+}
+
+/* Estilos para impresión */
+@media print {
+  .foodshaad-header,
+  .categories-nav,
+  .back-btn,
+  .buy-all-btn,
+  .action-buttons,
+  .cart-button-header {
+    display: none !important;
+  }
+  
+  .recipe-content {
+    display: block !important;
+  }
+  
+  body {
+    background: white !important;
+  }
+  
+  .container {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+}
+
+/* Optimizar para imágenes de entrada específicamente */
+.recipe-card[data-subcategory="entrada"] .recipe-card-image img {
+  object-position: center 30%;
+}
