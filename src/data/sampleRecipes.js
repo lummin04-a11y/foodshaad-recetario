@@ -1217,7 +1217,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "flanes",
-    video: "/videos/flancajeta.mp4",
+    video: "/foodshaad-recetario/videos/flancajeta.mp4",
     ingredients: [
       { name: "Leche condensada", quantity: 1, unit: "lata", package: "lácteos", price: 2.80 },
       { name: "Leche evaporada", quantity: 1, unit: "lata", package: "lácteos", price: 2.00 },
@@ -1233,7 +1233,7 @@ export const sampleRecipes = [
       "Hornear a baño María por 50 minutos",
       "Refrigerar por 4 horas antes de servir"
     ],
-    image: { src: "/imagenes/fla.png", alt: "Flan de cajeta" },
+    image: { src: "/foodshaad-recetario/imagenes/fla.png", alt: "Flan de cajeta" },
     calories: 380
   },
   {
@@ -1248,7 +1248,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "flanes",
-    video: "/videos/flannapolitano.mp4",
+    video: "/foodshaad-recetario/videos/flannapolitano.mp4",
     ingredients: [
       { name: "Leche condensada", quantity: 1, unit: "lata", package: "lácteos", price: 2.80 },
       { name: "Leche evaporada", quantity: 1, unit: "lata", package: "lácteos", price: 2.00 },
@@ -1263,7 +1263,7 @@ export const sampleRecipes = [
       "Dejar enfriar y refrigerar 4 horas",
       "Desmoldar y servir"
     ],
-    image: { src: "/imagenes/flannapo.png", alt: "Flan napolitano" },
+    image: { src: "/foodshaad-recetario/imagenes/flannapo.png", alt: "Flan napolitano" },
     calories: 400
   },
 
@@ -1280,7 +1280,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "fritos",
-    video: "/videos/churros.mp4",
+    video: "/foodshaad-recetario/videos/churros.mp4",
     ingredients: [
       { name: "Harina", quantity: 250, unit: "gramos", package: "harinas", price: 1.10 },
       { name: "Agua", quantity: 250, unit: "ml", package: "básicos", price: 0.00 },
@@ -1296,7 +1296,7 @@ export const sampleRecipes = [
       "Escurrir y pasar por mezcla de azúcar y canela",
       "Servir calientes"
     ],
-    image: { src: "/imagenes/churr.png", alt: "Churros caseros" },
+    image: { src: "/foodshaad-recetario/imagenes/churr.png", alt: "Churros caseros" },
     calories: 420
   },
   {
@@ -1311,7 +1311,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "fritos",
-    video: "/videos/bunuelos.mp4",
+    video: "/foodshaad-recetario/videos/bunuelos.mp4",
     ingredients: [
       { name: "Harina de trigo", quantity: 500, unit: "gramos", package: "harinas", price: 2.20 },
       { name: "Huevos", quantity: 2, unit: "unidades", package: "lácteos", price: 1.20 },
@@ -1327,7 +1327,7 @@ export const sampleRecipes = [
       "Preparar miel de piloncillo con canela",
       "Bañar los buñuelos con la miel caliente"
     ],
-    image: { src: "/imagenes/muño.avif", alt: "Buñuelos mexicanos" },
+    image: { src: "/foodshaad-recetario/imagenes/muño.avif", alt: "Buñuelos mexicanos" },
     calories: 380
   },
 
@@ -1344,7 +1344,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "aguas",
-    video: "/videos/limonada.mp4",
+    video: "/foodshaad-recetario/videos/limonada.mp4",
     ingredients: [
       { name: "Limones frescos", quantity: 6, unit: "unidades", package: "frutas", price: 2.40 },
       { name: "Azúcar", quantity: 1, unit: "taza", package: "endulzantes", price: 0.80 },
@@ -1358,7 +1358,7 @@ export const sampleRecipes = [
       "Mezclar bien y refrigerar por 30 minutos",
       "Servir con hielo y decorar con hojas de menta"
     ],
-    image: { src: "/imagenes/limo.png", alt: "Limonada casera refrescante" },
+    image: { src: "/foodshaad-recetario/imagenes/limo.png", alt: "Limonada casera refrescante" },
     calories: 120
   },
   {
@@ -1373,7 +1373,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "aguas",
-    video: "/videos/horchata.mp4",
+    video: "/foodshaad-recetario/videos/horchata.mp4",
     ingredients: [
       { name: "Arroz blanco", quantity: 1, unit: "taza", package: "granos", price: 0.75 },
       { name: "Agua", quantity: 1.5, unit: "litros", package: "básicos", price: 0.00 },
@@ -1389,7 +1389,7 @@ export const sampleRecipes = [
       "Mezclar bien y refrigerar por 1 hora",
       "Servir fría con hielo y espolvorear canela"
     ],
-    image: { src: "/imagenes/aguahor.png", alt: "Agua de horchata" },
+    image: { src: "/foodshaad-recetario/imagenes/aguahor.png", alt: "Agua de horchata" },
     calories: 150
   },
   {
@@ -1404,7 +1404,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "aguas",
-    video: "/videos/jamaica.mp4",
+    video: "/foodshaad-recetario/videos/jamaica.mp4",
     ingredients: [
       { name: "Flor de jamaica", quantity: 100, unit: "gramos", package: "hierbas", price: 3.00 },
       { name: "Azúcar", quantity: 1, unit: "taza", package: "endulzantes", price: 0.80 },
@@ -1419,7 +1419,7 @@ export const sampleRecipes = [
       "Agregar azúcar y el resto del agua",
       "Refrigerar y servir con hielo"
     ],
-    image: { src: "/imagenes/aguaja.png", alt: "Agua de jamaica" },
+    image: { src: "/foodshaad-recetario/imagenes/aguaja.png", alt: "Agua de jamaica" },
     calories: 90
   },
 
@@ -1436,7 +1436,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "leches",
-    video: "/videos/licuadofresa.mp4",
+    video: "/foodshaad-recetario/videos/licuadofresa.mp4",
     ingredients: [
       { name: "Fresas frescas", quantity: 200, unit: "gramos", package: "frutas", price: 2.00 },
       { name: "Leche", quantity: 400, unit: "ml", package: "lácteos", price: 2.00 },
@@ -1450,7 +1450,7 @@ export const sampleRecipes = [
       "Servir inmediatamente",
       "Decorar con una fresa en el borde del vaso"
     ],
-    image: { src: "/imagenes/licufresa.webp", alt: "Licuado de fresa" },
+    image: { src: "/foodshaad-recetario/imagenes/licufresa.webp", alt: "Licuado de fresa" },
     calories: 180
   },
   {
@@ -1465,7 +1465,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "leches",
-    video: "/videos/chocolatecaliente.mp4",
+    video: "/foodshaad-recetario/videos/chocolatecaliente.mp4",
     ingredients: [
       { name: "Leche", quantity: 500, unit: "ml", package: "lácteos", price: 2.50 },
       { name: "Chocolate para mesa", quantity: 100, unit: "gramos", package: "dulces", price: 3.00 },
@@ -1481,7 +1481,7 @@ export const sampleRecipes = [
       "Batir con molinillo hasta que espume",
       "Servir caliente"
     ],
-    image: { src: "/imagenes/chococremo.png", alt: "Chocolate caliente cremoso" },
+    image: { src: "/foodshaad-recetario/imagenes/chococremo.png", alt: "Chocolate caliente cremoso" },
     calories: 220
   },
 
@@ -1498,7 +1498,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "cafes",
-    video: "/videos/cafeolla.mp4",
+    video: "/foodshaad-recetario/videos/cafeolla.mp4",
     ingredients: [
       { name: "Café molido", quantity: 60, unit: "gramos", package: "bebidas", price: 4.00 },
       { name: "Piloncillo", quantity: 100, unit: "gramos", package: "endulzantes", price: 1.50 },
@@ -1513,7 +1513,7 @@ export const sampleRecipes = [
       "Apagar y dejar reposar 3 minutos",
       "Colar y servir caliente"
     ],
-    image: { src: "/imagenes/cafe.png", alt: "Café de olla" },
+    image: { src: "/foodshaad-recetario/imagenes/cafe.png", alt: "Café de olla" },
     calories: 60
   },
   {
@@ -1528,7 +1528,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "cafes",
-    video: "/videos/capuchino.mp4",
+    video: "/foodshaad-recetario/videos/capuchino.mp4",
     ingredients: [
       { name: "Café molido para espresso", quantity: 30, unit: "gramos", package: "bebidas", price: 3.00 },
       { name: "Leche entera", quantity: 300, unit: "ml", package: "lácteos", price: 1.50 },
@@ -1544,7 +1544,7 @@ export const sampleRecipes = [
       "Agregar leche espumada por encima",
       "Espolvorear canela y chocolate"
     ],
-    image: { src: "/imagenes/capuchino.webp", alt: "Capuchino casero" },
+    image: { src: "/foodshaad-recetario/imagenes/capuchino.webp", alt: "Capuchino casero" },
     calories: 80
   },
 
@@ -1561,7 +1561,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "tes",
-    video: "/videos/temanzanilla.mp4",
+    video: "/foodshaad-recetario/videos/temanzanilla.mp4",
     ingredients: [
       { name: "Flores de manzanilla", quantity: 4, unit: "cucharadas", package: "hierbas", price: 2.00 },
       { name: "Agua", quantity: 500, unit: "ml", package: "básicos", price: 0.00 },
@@ -1577,7 +1577,7 @@ export const sampleRecipes = [
       "Agregar miel y jugo de limón",
       "Servir caliente"
     ],
-    image: { src: "/imagenes/manzanilla.webp", alt: "Té de manzanilla relajante" },
+    image: { src: "/foodshaad-recetario/imagenes/manzanilla.webp", alt: "Té de manzanilla relajante" },
     calories: 40
   },
   {
@@ -1592,7 +1592,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "tes",
-    video: "/videos/teverde.mp4",
+    video: "/foodshaad-recetario/videos/teverde.mp4",
     ingredients: [
       { name: "Té verde en hojas", quantity: 2, unit: "cucharadas", package: "hierbas", price: 3.00 },
       { name: "Hojas de menta fresca", quantity: 10, unit: "hojas", package: "hierbas", price: 0.60 },
@@ -1608,7 +1608,7 @@ export const sampleRecipes = [
       "Agregar miel y limón al gusto",
       "Servir caliente o frío"
     ],
-    image: { src: "/imagenes/verdementa.png", alt: "Té verde con menta" },
+    image: { src: "/foodshaad-recetario/imagenes/verdementa.png", alt: "Té verde con menta" },
     calories: 30
   },
 
@@ -1625,7 +1625,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "jugos",
-    video: "/videos/aguanaranja.mp4",
+    video: "/foodshaad-recetario/videos/aguanaranja.mp4",
     ingredients: [
       { name: "Naranjas dulces", quantity: 6, unit: "unidades", package: "frutas", price: 3.00 },
       { name: "Hielo", quantity: 1, unit: "taza", package: "básicos", price: 0.25 },
@@ -1640,7 +1640,7 @@ export const sampleRecipes = [
       "Servir con hielo y decorar con menta",
       "Revolver bien antes de servir"
     ],
-    image: { src: "/imagenes/junaranja.avif", alt: "Jugo de naranja natural" },
+    image: { src: "/foodshaad-recetario/imagenes/junaranja.avif", alt: "Jugo de naranja natural" },
     calories: 110
   },
   {
@@ -1655,7 +1655,7 @@ export const sampleRecipes = [
     category: "Bebidas",
     subcategory: "bebidas",
     recipeType: "jugos",
-    video: "/videos/naranjazanahoria.mp4",
+    video: "/foodshaad-recetario/videos/naranjazanahoria.mp4",
     ingredients: [
       { name: "Zanahorias", quantity: 4, unit: "unidades", package: "verduras", price: 1.60 },
       { name: "Naranjas", quantity: 2, unit: "unidades", package: "frutas", price: 1.00 },
@@ -1671,7 +1671,7 @@ export const sampleRecipes = [
       "Licuar hasta obtener consistencia suave",
       "Servir con hielo"
     ],
-    image: { src: "/imagenes/juzana.jpg", alt: "Jugo de zanahoria con naranja" },
+    image: { src: "/foodshaad-recetario/imagenes/juzana.jpg", alt: "Jugo de zanahoria con naranja" },
     calories: 130
   }
 ];
