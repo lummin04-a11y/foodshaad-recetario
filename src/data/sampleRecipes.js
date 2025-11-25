@@ -12,7 +12,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "banderillas",
-    video: "/videos/banderillas.mp4",
+    video: "/foodshaad-recetario/videos/banderillas.mp4",
     ingredients: [
       { name: "Salchichas para hot dog", quantity: 8, unit: "unidades", package: "embutidos", price: 3.50 },
       { name: "Harina de trigo", quantity: 100, unit: "gramos", package: "harinas", price: 0.45 },
@@ -30,7 +30,7 @@ export const sampleRecipes = [
       "Freír las banderillas por 3-4 minutos hasta que estén doradas y crujientes",
       "Escurrir sobre papel absorbente y servir calientes"
     ],
-    image: { src: "/imagenes/ban.png", alt: "Banderillas de salchicha crujientes" },
+    image: { src: "/foodshaad-recetario/imagenes/ban.png", alt: "Banderillas de salchicha crujientes" },
     calories: 380
   },
   {
@@ -45,7 +45,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "banderillas",
-    video: "/videos/banderillaspicantes.mp4",
+    video: "/foodshaad-recetario/videos/banderillaspicantes.mp4",
     ingredients: [
       { name: "Salchichas para hot dog", quantity: 8, unit: "unidades", package: "embutidos", price: 3.50 },
       { name: "Salsa gochujang", quantity: 3, unit: "cucharadas", package: "salsas", price: 2.50 },
@@ -61,7 +61,7 @@ export const sampleRecipes = [
       "Pincelar con la salsa coreana y cocinar 2 minutos más",
       "Servir calientes como aperitivo"
     ],
-    image: { src: "/imagenes/banco.png", alt: "Banderillas coreanas picantes" },
+    image: { src: "/foodshaad-recetario/imagenes/banco.png", alt: "Banderillas coreanas picantes" },
     calories: 320
   },
   {
@@ -76,7 +76,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "dedos",
-    video: "/videos/palitos.mp4",
+    video: "/foodshaad-recetario/videos/palitos.mp4",
     ingredients: [
       { name: "Queso mozzarella", quantity: 200, unit: "gramos", package: "lácteos", price: 3.50 },
       { name: "Harina de trigo", quantity: 100, unit: "gramos", package: "harinas", price: 0.45 },
@@ -91,7 +91,7 @@ export const sampleRecipes = [
       "Freír en aceite caliente (180°C) hasta que estén dorados y crujientes",
       "Escurrir sobre papel absorbente y servir inmediatamente"
     ],
-    image: { src: "/imagenes/de.jpeg", alt: "Deditos de queso crujientes" },
+    image: { src: "/foodshaad-recetario/imagenes/de.jpeg", alt: "Deditos de queso crujientes" },
     calories: 320
   },
   {
@@ -106,7 +106,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "dedos",
-    video: "/videos/deditos-jalapeno.mp4",
+    video: "/foodshaad-recetario/videos/deditos-jalapeno.mp4",
     ingredients: [
       { name: "Jalapeños frescos", quantity: 8, unit: "unidades", package: "verduras", price: 2.00 },
       { name: "Queso crema", quantity: 200, unit: "gramos", package: "lácteos", price: 3.00 },
@@ -122,7 +122,7 @@ export const sampleRecipes = [
       "Freír en aceite caliente hasta dorar",
       "Escurrir y servir con salsa ranch"
     ],
-    image: { src: "/imagenes/depeño.webp", alt: "Deditos de jalapeño con queso" },
+    image: { src: "/foodshaad-recetario/imagenes/depeño.webp", alt: "Deditos de jalapeño con queso" },
     calories: 280
   },
   {
@@ -137,7 +137,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "nachos",
-    video: "/videos/na.mp4",
+    video: "/foodshaad-recetario/videos/na.mp4",
     ingredients: [
       { name: "Tortillas de maíz", quantity: 200, unit: "gramos", package: "granos", price: 2.50 },
       { name: "Queso cheddar", quantity: 200, unit: "gramos", package: "lácteos", price: 3.00 },
@@ -152,7 +152,7 @@ export const sampleRecipes = [
       "Colocar los nachos en una bandeja, añadir el queso y hornear hasta derretir",
       "Agregar jalapeños y servir con crema ácida y salsa"
     ],
-    image: { src: "/imagenes/na.png", alt: "Nachos con queso" },
+    image: { src: "/foodshaad-recetario/imagenes/na.png", alt: "Nachos con queso" },
     calories: 350
   },
   {
@@ -167,7 +167,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "nachos",
-    video: "/videos/nachos-supremos.mp4",
+    video: "/foodshaad-recetario/videos/nachos-supremos.mp4",
     ingredients: [
       { name: "Tortillas de maíz", quantity: 300, unit: "gramos", package: "granos", price: 3.50 },
       { name: "Carne molida", quantity: 300, unit: "gramos", package: "carnes", price: 4.50 },
@@ -184,7 +184,7 @@ export const sampleRecipes = [
       "Hornear hasta que el queso se derrita",
       "Servir con crema ácida y guacamole"
     ],
-    image: { src: "/imagenes/nane.png", alt: "Nachos supremos con carne" },
+    image: { src: "/foodshaad-recetario/imagenes/nane.png", alt: "Nachos supremos con carne" },
     calories: 420
   },
   {
@@ -199,7 +199,7 @@ export const sampleRecipes = [
     category: "Sopas",
     subcategory: "entrada",
     recipeType: "sopa",
-    video: "/videos/sopadepollo.mp4",
+    video: "/foodshaad-recetario/videos/sopadepollo.mp4",
     ingredients: [
       { name: "Pollo entero", quantity: 1, unit: "unidad", package: "carnes", price: 8.00 },
       { name: "Zanahorias", quantity: 3, unit: "unidades", package: "verduras", price: 1.20 },
@@ -216,7 +216,7 @@ export const sampleRecipes = [
       "Agregar los fideos y cocinar por 8-10 minutos",
       "Servir caliente con perejil picado"
     ],
-    image: { src: "/imagenes/sopapollo.png", alt: "Sopa de pollo casera" },
+    image: { src: "/foodshaad-recetario/imagenes/sopapollo.png", alt: "Sopa de pollo casera" },
     calories: 180
   },
   {
@@ -231,7 +231,7 @@ export const sampleRecipes = [
     category: "Sopas",
     subcategory: "entrada",
     recipeType: "sopa",
-    video: "/videos/sopatortilla.mp4",
+    video: "/foodshaad-recetario/videos/sopatortilla.mp4",
     ingredients: [
       { name: "Tortillas de maíz", quantity: 6, unit: "unidades", package: "granos", price: 1.80 },
       { name: "Pechuga de pollo", quantity: 300, unit: "gramos", package: "carnes", price: 5.00 },
@@ -247,7 +247,7 @@ export const sampleRecipes = [
       "Cocinar la salsa con caldo de pollo",
       "Servir con pollo, tiras de tortilla y aguacate"
     ],
-    image: { src: "/imagenes/sotilla.png", alt: "Sopa de tortilla" },
+    image: { src: "/foodshaad-recetario/imagenes/sotilla.png", alt: "Sopa de tortilla" },
     calories: 220
   },
   {
@@ -262,7 +262,7 @@ export const sampleRecipes = [
     category: "Ensaladas",
     subcategory: "entrada",
     recipeType: "ensalada",
-    video: "/videos/ensaladacesar.mp4",
+    video: "/foodshaad-recetario/videos/ensaladacesar.mp4",
     ingredients: [
       { name: "Lechuga romana", quantity: 1, unit: "cabeza", package: "verduras", price: 1.80 },
       { name: "Pollo asado", quantity: 200, unit: "gramos", package: "carnes", price: 4.00 },
@@ -278,7 +278,7 @@ export const sampleRecipes = [
       "Agregar el pollo, crutones y queso parmesano rallado",
       "Mezclar suavemente y servir inmediatamente"
     ],
-    image: { src: "/imagenes/ces.png", alt: "Ensalada césar clásica" },
+    image: { src: "/foodshaad-recetario/imagenes/ces.png", alt: "Ensalada césar clásica" },
     calories: 280
   },
   {
@@ -293,7 +293,7 @@ export const sampleRecipes = [
     category: "Ensaladas",
     subcategory: "entrada",
     recipeType: "ensalada",
-    video: "/videos/ensaladagriega.mp4",
+    video: "/foodshaad-recetario/videos/ensaladagriega.mp4",
     ingredients: [
       { name: "Pepino", quantity: 1, unit: "unidad", package: "verduras", price: 1.00 },
       { name: "Tomates", quantity: 3, unit: "unidades", package: "verduras", price: 1.50 },
@@ -309,7 +309,7 @@ export const sampleRecipes = [
       "Aliñar con aceite de oliva y orégano",
       "Servir fresca"
     ],
-    image: { src: "/imagenes/engria.png", alt: "Ensalada griega tradicional" },
+    image: { src: "/foodshaad-recetario/imagenes/engria.png", alt: "Ensalada griega tradicional" },
     calories: 200
   },
   {
@@ -324,7 +324,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "sopes",
-    video: "/videos/sopes.mp4",
+    video: "/foodshaad-recetario/videos/sopes.mp4",
     ingredients: [
       { name: "Masa de maíz", quantity: 500, unit: "gramos", package: "granos", price: 3.50 },
       { name: "Frijoles refritos", quantity: 300, unit: "gramos", package: "legumbres", price: 1.80 },
@@ -340,7 +340,7 @@ export const sampleRecipes = [
       "Agregar carne, lechuga, crema y queso",
       "Servir inmediatamente"
     ],
-    image: { src: "/imagenes/sopes.webp", alt: "Sopes mexicanos" },
+    image: { src: "/foodshaad-recetario/imagenes/sopes.webp", alt: "Sopes mexicanos" },
     calories: 280
   },
   {
@@ -355,7 +355,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "sopes",
-    video: "/videos/sopestinga.mp4",
+    video: "/foodshaad-recetario/videos/sopestinga.mp4",
     ingredients: [
       { name: "Masa de maíz", quantity: 500, unit: "gramos", package: "granos", price: 3.50 },
       { name: "Pechuga de pollo", quantity: 400, unit: "gramos", package: "carnes", price: 6.00 },
@@ -372,7 +372,7 @@ export const sampleRecipes = [
       "Decorar con crema y queso fresco",
       "Servir calientes"
     ],
-    image: { src: "/imagenes/sopespollo.webp", alt: "Sopes de tinga de pollo" },
+    image: { src: "/foodshaad-recetario/imagenes/sopespollo.webp", alt: "Sopes de tinga de pollo" },
     calories: 320
   },
   {
@@ -387,7 +387,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "molletes",
-    video: "/videos/molletes.mp4",
+    video: "/foodshaad-recetario/videos/molletes.mp4",
     ingredients: [
       { name: "Bolillo", quantity: 4, unit: "unidades", package: "panadería", price: 2.00 },
       { name: "Frijoles refritos", quantity: 400, unit: "gramos", package: "legumbres", price: 2.50 },
@@ -402,7 +402,7 @@ export const sampleRecipes = [
       "Gratinar hasta que el queso se derrita",
       "Servir con pico de gallo"
     ],
-    image: { src: "/imagenes/molle.png", alt: "Molletes caseros" },
+    image: { src: "/foodshaad-recetario/imagenes/molle.png", alt: "Molletes caseros" },
     calories: 320
   },
   {
@@ -417,7 +417,7 @@ export const sampleRecipes = [
     category: "Aperitivos",
     subcategory: "entrada",
     recipeType: "molletes",
-    video: "/videos/molletehuevo.mp4",
+    video: "/foodshaad-recetario/videos/molletehuevo.mp4",
     ingredients: [
       { name: "Bolillo", quantity: 4, unit: "unidades", package: "panadería", price: 2.00 },
       { name: "Frijoles refritos", quantity: 400, unit: "gramos", package: "legumbres", price: 2.50 },
@@ -432,7 +432,7 @@ export const sampleRecipes = [
       "Servir inmediatamente",
       "Acompañar con salsa picante al gusto"
     ],
-    image: { src: "/imagenes/molletehuevo.png", alt: "Molletes con huevo estrellado" },
+    image: { src: "/foodshaad-recetario/imagenes/molletehuevo.png", alt: "Molletes con huevo estrellado" },
     calories: 380
   },
 
@@ -449,7 +449,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "hamburguesa",
-    video: "/videos/hamburguesa.mp4",
+    video: "/foodshaad-recetario/videos/hamburguesa.mp4",
     ingredients: [
       { name: "Carne molida de res", quantity: 400, unit: "gramos", package: "carnes", price: 6.50 },
       { name: "Pan de hamburguesa", quantity: 2, unit: "unidades", package: "panadería", price: 1.20 },
@@ -464,7 +464,7 @@ export const sampleRecipes = [
       "Tostar ligeramente los panes en la plancha",
       "Armar la hamburguesa: pan base, salsa, lechuga, tomate, cebolla, hamburguesa con queso y tapa del pan"
     ],
-    image: { src: "/imagenes/ham.png", alt: "Hamburguesa clásica con queso" },
+    image: { src: "/foodshaad-recetario/imagenes/ham.png", alt: "Hamburguesa clásica con queso" },
     calories: 650
   },
   {
@@ -479,7 +479,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "hamburguesa",
-    video: "/videos/hamburguesapollo.mp4",
+    video: "/foodshaad-recetario/videos/hamburguesapollo.mp4",
     ingredients: [
       { name: "Pechuga de pollo", quantity: 400, unit: "gramos", package: "carnes", price: 6.00 },
       { name: "Pan de hamburguesa", quantity: 2, unit: "unidades", package: "panadería", price: 1.20 },
@@ -495,7 +495,7 @@ export const sampleRecipes = [
       "Tostar los panes",
       "Armar hamburguesa con pollo, lechuga, tomate y mayonesa"
     ],
-    image: { src: "/imagenes/hambpollo.png", alt: "Hamburguesa de pollo crispy" },
+    image: { src: "/foodshaad-recetario/imagenes/hambpollo.png", alt: "Hamburguesa de pollo crispy" },
     calories: 520
   },
 
@@ -512,7 +512,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "hotdog",
-    video: "/videos/hotdog.mp4",
+    video: "/foodshaad-recetario/videos/hotdog.mp4",
     ingredients: [
       { name: "Salchichas para hot dog", quantity: 8, unit: "unidades", package: "embutidos", price: 4.50 },
       { name: "Pan para hot dog", quantity: 8, unit: "unidades", package: "panadería", price: 3.20 },
@@ -529,7 +529,7 @@ export const sampleRecipes = [
       "Agregar los toppings: cebolla, tomate",
       "Finalizar con las salsas al gusto: mostaza, salsa de tomate y mayonesa"
     ],
-    image: { src: "/imagenes/hot.png", alt: "Hot dogs clásicos con toppings" },
+    image: { src: "/foodshaad-recetario/imagenes/hot.png", alt: "Hot dogs clásicos con toppings" },
     calories: 420
   },
   {
@@ -544,7 +544,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "hotdog",
-    video: "/videos/hotdogmexica.mp4",
+    video: "/foodshaad-recetario/videos/hotdogmexica.mp4",
     ingredients: [
       { name: "Salchichas para hot dog", quantity: 8, unit: "unidades", package: "embutidos", price: 4.50 },
       { name: "Pan para hot dog", quantity: 8, unit: "unidades", package: "panadería", price: 3.20 },
@@ -561,7 +561,7 @@ export const sampleRecipes = [
       "Armar hot dogs con salchicha envuelta en tocino",
       "Agregar guacamole y jalapeños"
     ],
-    image: { src: "/imagenes/hotmexicano.png", alt: "Hot dogs estilo mexicano" },
+    image: { src: "/foodshaad-recetario/imagenes/hotmexicano.png", alt: "Hot dogs estilo mexicano" },
     calories: 480
   },
 
@@ -578,7 +578,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "pizza",
-    video: "/videos/pizza.mp4",
+    video: "/foodshaad-recetario/videos/pizza.mp4",
     ingredients: [
       { name: "Masa para pizza", quantity: 1, unit: "unidad", package: "panadería", price: 2.50 },
       { name: "Salsa de tomate", quantity: 200, unit: "ml", package: "salsas", price: 1.80 },
@@ -594,7 +594,7 @@ export const sampleRecipes = [
       "Espolvorear orégano y un poco de aceite de oliva",
       "Hornear durante 15-20 minutos hasta que el borde esté dorado"
     ],
-    image: { src: "/imagenes/pi.jpg", alt: "Pizza de pepperoni casera" },
+    image: { src: "/foodshaad-recetario/imagenes/pi.jpg", alt: "Pizza de pepperoni casera" },
     calories: 280
   },
   {
@@ -609,7 +609,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "pizza",
-    video: "/videos/pizzahawaii.mp4",
+    video: "/foodshaad-recetario/videos/pizzahawaii.mp4",
     ingredients: [
       { name: "Masa para pizza", quantity: 1, unit: "unidad", package: "panadería", price: 2.50 },
       { name: "Salsa de tomate", quantity: 200, unit: "ml", package: "salsas", price: 1.80 },
@@ -626,7 +626,7 @@ export const sampleRecipes = [
       "Distribuir jamón en tiras y piña escurrida",
       "Hornear 15-20 minutos hasta que esté dorada"
     ],
-    image: { src: "/imagenes/pizzahaw.png", alt: "Pizza hawaiana casera" },
+    image: { src: "/foodshaad-recetario/imagenes/pizzahaw.png", alt: "Pizza hawaiana casera" },
     calories: 300
   },
 
@@ -643,7 +643,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "tostadas",
-    video: "/videos/to.mp4",
+    video: "/foodshaad-recetario/videos/to.mp4",
     ingredients: [
       { name: "Tortillas de maíz", quantity: 8, unit: "unidades", package: "granos", price: 3.00 },
       { name: "Frijoles refritos", quantity: 400, unit: "gramos", package: "legumbres", price: 2.50 },
@@ -658,7 +658,7 @@ export const sampleRecipes = [
       "Untar los frijoles sobre las tostadas",
       "Agregar lechuga, queso, crema y salsa al gusto"
     ],
-    image: { src: "/imagenes/to.png", alt: "Tostadas de frijoles" },
+    image: { src: "/foodshaad-recetario/imagenes/to.png", alt: "Tostadas de frijoles" },
     calories: 320
   },
   {
@@ -673,7 +673,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "tostadas",
-    video: "/videos/tostadastinga.mp4",
+    video: "/foodshaad-recetario/videos/tostadastinga.mp4",
     ingredients: [
       { name: "Tortillas de maíz", quantity: 8, unit: "unidades", package: "granos", price: 3.00 },
       { name: "Pechuga de pollo", quantity: 400, unit: "gramos", package: "carnes", price: 6.00 },
@@ -689,7 +689,7 @@ export const sampleRecipes = [
       "Armar tostadas: base crujiente, tinga de pollo",
       "Decorar con crema y aguacate"
     ],
-    image: { src: "/imagenes/tostapollo.jpg", alt: "Tostadas de tinga de pollo" },
+    image: { src: "/foodshaad-recetario/imagenes/tostapollo.jpg", alt: "Tostadas de tinga de pollo" },
     calories: 350
   },
 
@@ -706,7 +706,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "tacos",
-    video: "/videos/tacospastor.mp4",
+    video: "/foodshaad-recetario/videos/tacospastor.mp4",
     ingredients: [
       { name: "Carne de cerdo", quantity: 500, unit: "gramos", package: "carnes", price: 8.50 },
       { name: "Piña", quantity: 200, unit: "gramos", package: "frutas", price: 2.00 },
@@ -722,7 +722,7 @@ export const sampleRecipes = [
       "Picar cebolla, cilantro y piña",
       "Armar los tacos con carne, piña, cebolla y cilantro"
     ],
-    image: { src: "/imagenes/tocos.png", alt: "Tacos al pastor con piña" },
+    image: { src: "/foodshaad-recetario/imagenes/tocos.png", alt: "Tacos al pastor con piña" },
     calories: 320
   },
   {
@@ -737,7 +737,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "tacos",
-    video: "/videos/tacosbistec.mp4",
+    video: "/foodshaad-recetario/videos/tacosbistec.mp4",
     ingredients: [
       { name: "Bistec de res", quantity: 500, unit: "gramos", package: "carnes", price: 9.00 },
       { name: "Tortillas de maíz", quantity: 16, unit: "unidades", package: "granos", price: 3.20 },
@@ -754,7 +754,7 @@ export const sampleRecipes = [
       "Armar tacos con carne, cebolla asada y cilantro",
       "Servir con limón y salsa verde"
     ],
-    image: { src: "/imagenes/tacosBi.png", alt: "Tacos de bistec con cebolla" },
+    image: { src: "/foodshaad-recetario/imagenes/tacosBi.png", alt: "Tacos de bistec con cebolla" },
     calories: 340
   },
 
@@ -771,7 +771,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "enchiladas",
-    video: "/videos/enchiladasverdes.mp4",
+    video: "/foodshaad-recetario/videos/enchiladasverdes.mp4",
     ingredients: [
       { name: "Pechuga de pollo", quantity: 400, unit: "gramos", package: "carnes", price: 6.80 },
       { name: "Tortillas de maíz", quantity: 12, unit: "unidades", package: "granos", price: 2.40 },
@@ -787,7 +787,7 @@ export const sampleRecipes = [
       "Bañar con salsa verde",
       "Decorar con crema y queso fresco"
     ],
-    image: { src: "/imagenes/flautas.png", alt: "Enchiladas verdes" },
+    image: { src: "/foodshaad-recetario/imagenes/flautas.png", alt: "Enchiladas verdes" },
     calories: 280
   },
   {
@@ -802,7 +802,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "enchiladas",
-    video: "/videos/enchiladasrojas.mp4",
+    video: "/foodshaad-recetario/videos/enchiladasrojas.mp4",
     ingredients: [
       { name: "Pechuga de pollo", quantity: 400, unit: "gramos", package: "carnes", price: 6.80 },
       { name: "Tortillas de maíz", quantity: 12, unit: "unidades", package: "granos", price: 2.40 },
@@ -819,7 +819,7 @@ export const sampleRecipes = [
       "Bañar con más salsa",
       "Decorar con crema, queso y cebolla"
     ],
-    image: { src: "/imagenes/enciladasrojas.webp", alt: "Enchiladas rojas con pollo" },
+    image: { src: "/foodshaad-recetario/imagenes/enciladasrojas.webp", alt: "Enchiladas rojas con pollo" },
     calories: 300
   },
 
@@ -836,7 +836,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "chiles-rellenos",
-    video: "/videos/chilesrellenos.mp4",
+    video: "/foodshaad-recetario/videos/chilesrellenos.mp4",
     ingredients: [
       { name: "Chiles poblanos", quantity: 8, unit: "unidades", package: "verduras", price: 4.00 },
       { name: "Queso panela", quantity: 400, unit: "gramos", package: "lácteos", price: 6.00 },
@@ -852,7 +852,7 @@ export const sampleRecipes = [
       "Empanizar chiles en harina y huevo",
       "Freír hasta dorar y bañar con salsa"
     ],
-    image: { src: "/imagenes/chilesrellenos.png", alt: "Chiles rellenos" },
+    image: { src: "/foodshaad-recetario/imagenes/chilesrellenos.png", alt: "Chiles rellenos" },
     calories: 350
   },
   {
@@ -867,7 +867,7 @@ export const sampleRecipes = [
     category: "Principales",
     subcategory: "fuerte",
     recipeType: "chiles-rellenos",
-    video: "/videos/chilesrellenospicadillo.mp4",
+    video: "/foodshaad-recetario/videos/chilesrellenospicadillo.mp4",
     ingredients: [
       { name: "Chiles poblanos", quantity: 8, unit: "unidades", package: "verduras", price: 4.00 },
       { name: "Carne molida", quantity: 400, unit: "gramos", package: "carnes", price: 6.50 },
@@ -884,7 +884,7 @@ export const sampleRecipes = [
       "Empanizar y freír los chiles",
       "Bañar con salsa y servir"
     ],
-    image: { src: "/imagenes/chilepicadillo.webp", alt: "Chiles rellenos de picadillo" },
+    image: { src: "/foodshaad-recetario/imagenes/chilepicadillo.webp", alt: "Chiles rellenos de picadillo" },
     calories: 420
   },
 
@@ -901,7 +901,7 @@ export const sampleRecipes = [
     category: "Acompañamientos",
     subcategory: "fuerte",
     recipeType: "arroz",
-    video: "/videos/arrozblanco.mp4",
+    video: "/foodshaad-recetario/videos/arrozblanco.mp4",
     ingredients: [
       { name: "Arroz blanco", quantity: 2, unit: "tazas", package: "granos", price: 1.50 },
       { name: "Agua", quantity: 4, unit: "tazas", package: "básicos", price: 0.00 },
@@ -915,7 +915,7 @@ export const sampleRecipes = [
       "Bajar el fuego, tapar y cocinar por 15-20 minutos",
       "Dejar reposar 5 minutos antes de servir"
     ],
-    image: { src: "/imagenes/blanco.png", alt: "Arroz blanco casero" },
+    image: { src: "/foodshaad-recetario/imagenes/blanco.png", alt: "Arroz blanco casero" },
     calories: 200
   },
   {
@@ -930,7 +930,7 @@ export const sampleRecipes = [
     category: "Acompañamientos",
     subcategory: "fuerte",
     recipeType: "arroz",
-    video: "/videos/arrozrojo.mp4",
+    video: "/foodshaad-recetario/videos/arrozrojo.mp4",
     ingredients: [
       { name: "Arroz blanco", quantity: 2, unit: "tazas", package: "granos", price: 1.50 },
       { name: "Tomates", quantity: 3, unit: "unidades", package: "verduras", price: 1.50 },
@@ -947,7 +947,7 @@ export const sampleRecipes = [
       "Cocinar a fuego bajo 20 minutos",
       "Dejar reposar 5 minutos y servir"
     ],
-    image: { src: "/imagenes/arrozrojo.webp", alt: "Arroz rojo mexicano" },
+    image: { src: "/foodshaad-recetario/imagenes/arrozrojo.webp", alt: "Arroz rojo mexicano" },
     calories: 220
   },
 
@@ -964,7 +964,7 @@ export const sampleRecipes = [
     category: "Acompañamientos",
     subcategory: "fuerte",
     recipeType: "frijoles",
-    video: "/videos/frijolescharros.mp4",
+    video: "/foodshaad-recetario/videos/frijolescharros.mp4",
     ingredients: [
       { name: "Frijol bayo", quantity: 500, unit: "gramos", package: "legumbres", price: 4.50 },
       { name: "Chorizo", quantity: 200, unit: "gramos", package: "embutidos", price: 3.50 },
@@ -980,7 +980,7 @@ export const sampleRecipes = [
       "Cocinar 15 minutos más",
       "Agregar cilantro picado al servir"
     ],
-    image: { src: "/imagenes/frijol.png", alt: "Frijoles charros" },
+    image: { src: "/foodshaad-recetario/imagenes/frijol.png", alt: "Frijoles charros" },
     calories: 280
   },
   {
@@ -995,7 +995,7 @@ export const sampleRecipes = [
     category: "Acompañamientos",
     subcategory: "fuerte",
     recipeType: "frijoles",
-    video: "/videos/frijolesfritos.mp4",
+    video: "/foodshaad-recetario/videos/frijolesfritos.mp4",
     ingredients: [
       { name: "Frijoles bayo cocidos", quantity: 500, unit: "gramos", package: "legumbres", price: 3.00 },
       { name: "Cebolla", quantity: 0.5, unit: "unidad", package: "verduras", price: 0.25 },
@@ -1011,7 +1011,7 @@ export const sampleRecipes = [
       "Cocinar hasta que espese",
       "Servir calientes"
     ],
-    image: { src: "/imagenes/frijjolesrefritos.png", alt: "Frijoles refritos tradicionales" },
+    image: { src: "/foodshaad-recetario/imagenes/frijjolesrefritos.png", alt: "Frijoles refritos tradicionales" },
     calories: 250
   },
 
@@ -1028,7 +1028,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "helados",
-    video: "/videos/helado.mp4",
+    video: "/foodshaad-recetario/videos/helado.mp4",
     ingredients: [
       { name: "Fresas frescas", quantity: 500, unit: "gramos", package: "frutas", price: 4.00 },
       { name: "Crema para batir", quantity: 500, unit: "ml", package: "lácteos", price: 3.50 },
@@ -1043,7 +1043,7 @@ export const sampleRecipes = [
       "Verter en un recipiente y congelar por al menos 6 horas",
       "Servir con fresas frescas por encima"
     ],
-    image: { src: "/imagenes/hel.jpg", alt: "Helado de fresa casero" },
+    image: { src: "/foodshaad-recetario/imagenes/hel.jpg", alt: "Helado de fresa casero" },
     calories: 420
   },
   {
@@ -1058,7 +1058,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "helados",
-    video: "/videos/heladovainilla.mp4",
+    video: "/foodshaad-recetario/videos/heladovainilla.mp4",
     ingredients: [
       { name: "Crema para batir", quantity: 500, unit: "ml", package: "lácteos", price: 3.50 },
       { name: "Leche evaporada", quantity: 1, unit: "lata", package: "lácteos", price: 2.00 },
@@ -1074,7 +1074,7 @@ export const sampleRecipes = [
       "Batir la crema y mezclar con la preparación anterior",
       "Congelar por 6 horas, removiendo cada hora"
     ],
-    image: { src: "/imagenes/vainilla.jpg", alt: "Helado de vainilla casero" },
+    image: { src: "/foodshaad-recetario/imagenes/vainilla.jpg", alt: "Helado de vainilla casero" },
     calories: 380
   },
 
@@ -1091,7 +1091,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "frutas",
-    video: "/videos/fre.mp4",
+    video: "/foodshaad-recetario/videos/fre.mp4",
     ingredients: [
       { name: "Fresas frescas", quantity: 500, unit: "gramos", package: "frutas", price: 4.00 },
       { name: "Crema para batir", quantity: 250, unit: "ml", package: "lácteos", price: 1.75 },
@@ -1105,7 +1105,7 @@ export const sampleRecipes = [
       "Decorar con la crema batida por encima",
       "Refrigerar por 15 minutos antes de servir"
     ],
-    image: { src: "/imagenes/fre.png", alt: "Fresas con crema" },
+    image: { src: "/foodshaad-recetario/imagenes/fre.png", alt: "Fresas con crema" },
     calories: 280
   },
   {
@@ -1120,7 +1120,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "frutas",
-    video: "/videos/manzanacaramel.mp4",
+    video: "/foodshaad-recetario/videos/manzanacaramel.mp4",
     ingredients: [
       { name: "Manzanas verdes", quantity: 6, unit: "unidades", package: "frutas", price: 3.00 },
       { name: "Azúcar", quantity: 400, unit: "gramos", package: "endulzantes", price: 1.20 },
@@ -1136,7 +1136,7 @@ export const sampleRecipes = [
       "Sumergir las manzanas en el caramelo",
       "Dejar enfriar sobre papel encerado"
     ],
-    image: { src: "/imagenes/manzanacaramelo.png", alt: "Manzanas acarameladas" },
+    image: { src: "/foodshaad-recetario/imagenes/manzanacaramelo.png", alt: "Manzanas acarameladas" },
     calories: 320
   },
 
@@ -1153,7 +1153,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "pasteles",
-    video: "/videos/pa.mp4",
+    video: "/foodshaad-recetario/videos/pa.mp4",
     ingredients: [
       { name: "Galletas maría", quantity: 200, unit: "gramos", package: "galletas", price: 1.80 },
       { name: "Mantequilla", quantity: 100, unit: "gramos", package: "lácteos", price: 1.50 },
@@ -1168,7 +1168,7 @@ export const sampleRecipes = [
       "Incorporar la crema batida",
       "Verter sobre la base de galletas y refrigerar por 4 horas"
     ],
-    image: { src: "/imagenes/pai.png", alt: "Pay de limón" },
+    image: { src: "/foodshaad-recetario/imagenes/pai.png", alt: "Pay de limón" },
     calories: 380
   },
   {
@@ -1183,7 +1183,7 @@ export const sampleRecipes = [
     category: "Postres",
     subcategory: "postre",
     recipeType: "pasteles",
-    video: "/videos/pastelchocolate.mp4",
+    video: "/foodshaad-recetario/videos/pastelchocolate.mp4",
     ingredients: [
       { name: "Harina de trigo", quantity: 300, unit: "gramos", package: "harinas", price: 1.20 },
       { name: "Azúcar", quantity: 400, unit: "gramos", package: "endulzantes", price: 1.20 },
@@ -1200,7 +1200,7 @@ export const sampleRecipes = [
       "Hornear 30-35 minutos",
       "Dejar enfriar y decorar con betún de chocolate"
     ],
-    image: { src: "/imagenes/pastelchoco.webp", alt: "Pastel de chocolate clásico" },
+    image: { src: "/foodshaad-recetario/imagenes/pastelchoco.webp", alt: "Pastel de chocolate clásico" },
     calories: 450
   },
 
