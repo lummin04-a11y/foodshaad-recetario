@@ -1,4 +1,4 @@
-﻿name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
@@ -20,9 +20,7 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v2
         with:
-          path: . # The root location of your Astro project inside the repository.
-          # node-version: 18 # The specific version of Node that should be used to build your site. Default is 18.
-          # package-manager: pnpm # The Node package manager that should be used to install dependencies and build your site. Default is npm.
+          path: .
 
   deploy:
     needs: build
